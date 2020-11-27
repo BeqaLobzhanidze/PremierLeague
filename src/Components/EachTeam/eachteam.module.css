@@ -1,0 +1,75 @@
+.container {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: white;
+  padding-top:1px;
+}
+.rank {
+  width: 20px;
+}
+.team {
+  position: relative;
+  left: 12px;
+  width: 370px;
+  text-align: start;
+  justify-self: center;
+}
+.image {
+  position: relative;
+  left: 10px;
+  width: 25px;
+  height: 25px;
+}
+.matchedPlayed ,
+.win ,
+.draw , 
+.losses {
+  width: 40px;
+}
+
+.points {
+  width: 40px;
+}
+.goals {
+  width: 50px;
+}
+.form {
+  width: 100px;
+}
+@media all and (max-width:800px) {
+  .team {
+    width: 300px;
+  }
+  .container {
+    width: 700px;
+  }
+}
+@media all and (max-width:750px){
+  .container {
+    width: 650px;
+  }
+  .team {
+    width: 250px;
+  }
+}
+@media all and (max-width:650px) {
+  .container {
+    width: 400px;
+  }
+  .team {
+    display: none;
+  }
+  .image {
+    margin-right: 20px;
+  }
+}
+@media all and (max-width:400px) {
+  .container {
+    width: 300px;
+  }
+  .form {
+    display: none;
+  }
+}

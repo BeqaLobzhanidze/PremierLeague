@@ -1,0 +1,5 @@
+export {default as EachTeam} from "./EachTeam/eachteam"
+export {default as TitleAnimation} from "./TitleAnimation/TitleAnimation"
+export {default as TeamsList} from "./TeamsList/TeamsList"
+export {default as Games} from "./Games/Games"
+export {default as Header} from "./header/header"

@@ -1,0 +1,101 @@
+.container {
+  padding: 10px 0;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: burlywood;
+}
+.rank {
+  width: 20px;
+}
+.team {
+  width: 400px;
+  text-align: start;
+  position: relative;
+  left: 30px;
+}
+.matchedPlayed ,
+.win ,
+.draw , 
+.losses {
+  position: relative;
+  right: 5px;
+  width: 40px;
+}
+
+.points {
+  position: relative;
+  right: 5px;
+  width: 40px;
+}
+.goals {
+  position: relative;
+  right: 5px;
+  width: 50px;
+}
+.form {
+  position: relative;
+  right: 5px;
+  width: 100px;
+}
+@media all and (max-width:800px) {
+  .container {
+    width: 700px;
+  }
+  .team {
+    width: 350px;
+  }
+  .matchedPlayed ,
+.win ,
+.draw , 
+.losses {
+  position: relative;
+  right: 10px;
+  width: 40px;
+}
+}
+@media all and (max-width:750px){
+  .container {
+    width: 650px;
+  }
+  .team {
+    width: 300px;
+  }
+  .matchedPlayed ,
+.win ,
+.draw , 
+.losses {
+  position: relative;
+  right: 12px;
+  width: 40px;
+}
+}
+@media all and (max-width:650px) {
+  .container {
+    width: 400px;
+  }
+  .team {
+    width: 50px;
+    text-align: start;
+    position: relative;
+    left: 0px;
+  }
+  .matchedPlayed ,
+.win ,
+.draw , 
+.losses {
+  position: relative;
+  right: 0px;
+  width: 40px;
+}
+  
+}
+@media all and (max-width:400px) {
+  .container {
+    width: 300px;
+  }
+  .form {
+    display: none;
+  }
+}

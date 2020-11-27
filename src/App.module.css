@@ -1,0 +1,41 @@
+body {
+  width: 100%;
+  height: auto;
+}
+.flex {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+.button {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+.away,
+.home , 
+.overall {
+  background-color: blanchedalmond;
+  font-size: 20px;
+  padding: 5px;
+  border: 1 px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: .5s transform ease;
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+  border-radius: 20px;
+
+}
+.away:hover,
+.home:hover , 
+.overall:hover {
+  transform: scale(1.2);
+}

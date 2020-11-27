@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Nerko+One&display=swap');
+.container {
+  color: white;
+  animation: type 4s steps(16);
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: 'Comfortaa', cursive;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+}
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 16ch;
+  }
+}
